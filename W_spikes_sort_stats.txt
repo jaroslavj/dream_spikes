@@ -1,0 +1,9 @@
+19169650 reads unpapped => 98.852 %
+222612 reads mapped => 1.148 %
+210345 reads above 5 MAPQ quality limit => 94.490 % of mapped or 1.085 % of total
+36 reads under 5 MAPQ quality limit => 0.016 % of mapped  0.000 % of total
+
+12231 of mapped reads are NOT in SmaI database => 5.4943 % of mapped or 0.0631 % of total
+
+count_read_pass + count_reads_low_mapq + count_non_SmalI ->  210345 + 36 + 12231 = 222612  ==  mapped -> 222612
+mapped + unmapped -> 222612 + 19169650 = 19392262 == total -> 19392262 
